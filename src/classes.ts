@@ -11,5 +11,14 @@
 		   }  ;
            decreaseSpeed():void{ this.speed--; };
            getSpeed():void{ console.log(this.speed) };
-           noOfWheels():number{ return 4;}
+         static noOfWheels():number{ return 4;}
 		   }
+
+
+
+
+		   var mycar = new Car(5);
+		   console.log(Car.noOfWheels());
+		   mycar.accelrate();
+		   mycar.getSpeed();
+		   
